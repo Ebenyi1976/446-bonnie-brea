@@ -63,8 +63,8 @@ body {
 }
 .heroLabel {
   font-family: var(--font-dm-mono), monospace;
-  font-size: 0.65rem; letter-spacing: 0.22em;
-  color: var(--gold); text-transform: uppercase; margin-bottom: 26px;
+  font-size: 0.9rem; letter-spacing: 0.18em;
+  color: var(--gold); text-transform: uppercase; margin-bottom: 26px; font-weight: 500;
 }
 .heroH1 {
   font-family: var(--font-playfair), serif;
@@ -83,7 +83,7 @@ body {
 .countdown { margin-top: 38px; display: flex; flex-direction: column; align-items: center; gap: 14px; }
 .countdownLabel {
   font-family: var(--font-dm-mono), monospace;
-  font-size: 0.62rem; letter-spacing: 0.18em; color: var(--gold); text-transform: uppercase;
+  font-size: 1rem; letter-spacing: 0.14em; color: var(--gold); text-transform: uppercase; font-weight: 500;
 }
 .cdBoxes { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .cdBox {
@@ -115,8 +115,8 @@ body {
 .baLabel {
   position: absolute; left: 0; right: 0; bottom: 0;
   font-family: var(--font-dm-mono), monospace;
-  font-size: 0.6rem; letter-spacing: 0.1em;
-  padding: 8px 12px; text-transform: uppercase; z-index: 2;
+  font-size: 0.82rem; letter-spacing: 0.08em; font-weight: 500;
+  padding: 10px 14px; text-transform: uppercase; z-index: 2;
 }
 .baLabelNavy { background: var(--navy); color: var(--white); }
 .baLabelGold { background: var(--gold); color: var(--navy); }
@@ -224,7 +224,7 @@ body {
 
 /* scarcity */
 .scarcity { text-align: center; }
-.scarcityLbl { font-family: var(--font-dm-mono), monospace; font-size: 0.66rem; letter-spacing: 0.2em; color: rgba(255,255,255,0.3); text-transform: uppercase; }
+.scarcityLbl { font-family: var(--font-dm-mono), monospace; font-size: 0.85rem; letter-spacing: 0.18em; color: var(--gold); text-transform: uppercase; font-weight: 500; }
 .scarcityH2 { font-family: var(--font-playfair), serif; font-weight: 700; color: var(--white); font-size: clamp(2rem, 4vw, 3rem); line-height: 1.18; margin-top: 20px; }
 .scarcityH2 .accent { font-style: italic; color: var(--gold); }
 .scarcityBody { font-size: 1.05rem; color: rgba(255,255,255,0.6); font-weight: 300; max-width: 540px; margin: 22px auto 0; line-height: 1.85; }

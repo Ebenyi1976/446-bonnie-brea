@@ -15,8 +15,7 @@ export default function Home() {
         <div className="heroLabel">OFF MARKET · WESTLAKE · LOS ANGELES CA 90057</div>
         <h1 className="heroH1">
           The zoning framework is already there.<br />
-          Someone just needs<br />
-          <span className="accent">to build it.</span>
+          <span className="accent">Someone just needs to build it.</span>
         </h1>
         <div className="heroSubline">LAR4-1 · TOC TIER 3 · EST. ~33 BUILDABLE UNITS* · MACARTHUR PARK METRO</div>
 
