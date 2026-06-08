@@ -23,8 +23,8 @@ export default function Home() {
         <Countdown />
 
         <div className="baPhotos">
-          <div className="baPhoto">
-            <Image src="/existing-building.png" alt="The existing building at 446 S Bonnie Brae Street as it stands today" width={600} height={260} style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
+          <div className="baPhoto cropBottom">
+            <Image src="/existing-building.png" alt="The existing building at 446 S Bonnie Brae Street as it stands today" width={600} height={260} style={{ width: '100%', height: '260px', objectFit: 'cover', objectPosition: 'center 20%' }} />
             <div className="baOverlay" />
             <div className={`baLabel baLabelNavy`}>EXISTING BUILDING — TODAY</div>
           </div>
@@ -152,7 +152,7 @@ export default function Home() {
         <div className="wrap">
           <span className="secTag">Massing Diagram</span>
           <h2 className="secH">What could be built here.</h2>
-          <Image src="/massing-diagram.png" alt="Illustrative massing diagram showing the estimated buildable envelope on the site" width={1080} height={540} className="massingImg" />
+          <Image src="/massing-diagram.png" alt="Illustrative massing diagram showing the estimated buildable envelope on the site" width={1080} height={540} className="massingImg" style={{ width: '100%', height: 'auto' }} />
           <div className="statRow">
             <div className="statBox"><div className="statNum">~33</div><div className="statLbl">Est. Total Units* — 25 market rate + 4 SB 8 affordable + 4 owner replacement</div></div>
             <div className="statBox"><div className="statNum">5</div><div className="statLbl">Stories* — Wood frame over podium, Type III-A over Type I-A</div></div>
