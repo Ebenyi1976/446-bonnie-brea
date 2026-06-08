@@ -205,8 +205,8 @@ body {
 .massingImg { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border); display: block; margin-top: 30px; }
 .statRow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 22px; }
 .statBox { border: 1px solid var(--border); border-top: 2px solid var(--gold); border-radius: 6px; padding: 22px; text-align: center; }
-.statNum { font-family: var(--font-playfair), serif; font-weight: 700; font-size: 2.4rem; color: var(--gold); line-height: 1; }
-.statLbl { font-family: var(--font-dm-sans), sans-serif; font-size: 0.78rem; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+.statNum { font-family: var(--font-playfair), serif; font-weight: 700; font-size: 2.6rem; color: var(--gold); line-height: 1; }
+.statLbl { font-family: var(--font-dm-sans), sans-serif; font-size: 1rem; color: var(--muted); margin-top: 12px; line-height: 1.6; font-weight: 500; }
 
 /* financing */
 .introP { font-size: 1.05rem; color: #555; max-width: 660px; line-height: 1.8; margin-top: 16px; }
