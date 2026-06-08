@@ -222,15 +222,19 @@ export default function Home() {
           <p className="introP">We share full financials and deal details with qualified developers and investors. Fill out the short form below and we will send the Offering Memorandum directly to your inbox.</p>
           <ContactForm />
           <div className="agentCard">
-            <div className="agentAvatar">EB</div>
+            <div className="agentAvatar">
+              <Image src="/agent-photo.jpg" alt="Edit Benyi" width={64} height={64} style={{ width: '64px', height: '64px', objectFit: 'cover', borderRadius: '50%' }} />
+            </div>
             <div className="agentMid">
               <div className="agentName">Edit Benyi</div>
-              <div className="agentRole">Real Estate Agent &amp; Mortgage Originator</div>
-              <div className="agentLic">Coldwell Banker · DRE #01918439 · Broker DRE #02211662 · NMLS #1762484 · Loan Factory NMLS #320841</div>
+              <div className="agentRole">Real Estate and Mortgage Broker</div>
+              <div className="agentLic">
+                Coldwell Banker &nbsp;DRE #01918439 &nbsp;|&nbsp; CO-DRE #02211662<br />
+                Loan Factory &nbsp;NMLS #1762484 &nbsp;|&nbsp; CO-NMLS #320841
+              </div>
             </div>
             <div className="agentRight">
               <div className="agentPhone">310.967.9156</div>
-              <div className="agentEmail">editbenyirealtor@gmail.com</div>
               <div className="agentFn">Financing optional. Buyers free to use any lender. AfBA disclosure on request.</div>
             </div>
           </div>
