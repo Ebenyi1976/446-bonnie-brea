@@ -74,7 +74,7 @@ export default function Home() {
             {[
               { title: 'The Density Problem', badge: 'Addressed', badgeCls: 'badgeGreen', body: 'TOC Tier 3 density framework already written into the zoning code. Est. 70% density bonus over base zoning. No city approval fight required — the framework is already there.' },
               { title: 'The Parking Problem', badge: 'Addressed', badgeCls: 'badgeGreen', body: 'Per AB 2097, minimum parking requirements may be fully eliminated for qualifying affordable developments at this Metro-adjacent location — potentially saving $650,000–$1,000,000 in construction costs.' },
-              { title: 'The RSO Picture', badge: 'Fully Disclosed', badgeCls: 'badgeGold', body: 'Three RSO tenants transfer with the property. Owner unit delivered vacant. Move-in dates confirmed. Relocation liability estimated at ~$150,000 including legal fees — priced into the asking price. No hidden exposure.' },
+              { title: 'The RSO Picture', badge: 'Fully Disclosed', badgeCls: 'badgeGold', body: 'Three RSO tenants transfer with the property. Owner unit delivered vacant. Move-in dates confirmed. No hidden exposure.' },
             ].map(({ title, badge, badgeCls, body }) => (
               <div className="arrowItem" key={title}>
                 <div className="arrowMark">→</div>
