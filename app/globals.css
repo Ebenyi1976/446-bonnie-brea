@@ -110,7 +110,7 @@ body {
 .baPhotos { display: flex; gap: 14px; margin-top: 42px; width: 100%; max-width: 840px; }
 .baPhoto { flex: 1; position: relative; border-radius: 6px; overflow: hidden; }
 .baPhoto img { display: block; width: 100%; height: 260px; object-fit: cover; }
-.baPhoto.cropBottom img { object-position: center 20%; }
+.baPhoto.cropBottom img { object-position: center 5%; }
 .baOverlay { position: absolute; inset: 0; background: rgba(26, 43, 60, 0.15); }
 .baLabel {
   position: absolute; left: 0; right: 0; bottom: 0;

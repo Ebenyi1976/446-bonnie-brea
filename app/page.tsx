@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="baPhotos">
           <div className="baPhoto cropBottom">
-            <Image src="/existing-building.png" alt="The existing building at 446 S Bonnie Brae Street as it stands today" width={600} height={260} style={{ width: '100%', height: '260px', objectFit: 'cover', objectPosition: 'center 20%' }} />
+            <Image src="/existing-building.png" alt="The existing building at 446 S Bonnie Brae Street as it stands today" width={600} height={260} style={{ width: '100%', height: '260px', objectFit: 'cover', objectPosition: 'center 5%' }} />
             <div className="baOverlay" />
             <div className={`baLabel baLabelNavy`}>EXISTING BUILDING — TODAY</div>
           </div>
