@@ -30,8 +30,8 @@ export default function Home() {
           <div className="baPhoto">
             <Image src="/proposed-render.jpg" alt="Illustrative rendering of a proposed multifamily development concept on the site" width={600} height={260} style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
             <div className={`baLabel baLabelGold`}>PROPOSED DEVELOPMENT CONCEPT — ILLUSTRATIVE ONLY*</div>
-            <div className="aiDisclosure">AI-generated image for illustrative purposes</div>
           </div>
+          <div className="aiDisclosure">AI-generated image for illustrative purposes</div>
         </div>
       </Reveal>
 
