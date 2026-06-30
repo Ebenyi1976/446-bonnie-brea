@@ -255,7 +255,7 @@ export default function Home() {
         <p className="footerCopy">© 2026 Edit Benyi. All rights reserved. All content on this site, including text, images, renderings, and data, is the property of Edit Benyi and may not be reproduced, distributed, or used without prior written consent. This site is intended for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security or investment. All information is deemed reliable but not guaranteed. Prospective buyers are advised to conduct their own independent due diligence.</p>
         <div className="footerEho">
           <div className="ehoLogo">
-            <Image src="/equal-housing.png" alt="Equal Housing Opportunity" width={50} height={50} style={{ width: '50px', height: '50px', objectFit: 'contain', filter: 'brightness(0) invert(0.4)' }} />
+            <Image src="/equal-housing.png" alt="Equal Housing Opportunity" width={50} height={50} style={{ width: '50px', height: '50px', objectFit: 'contain', filter: 'invert(1) opacity(0.4)' }} />
           </div>
           <p className="ehoText">We are pledged to the letter and spirit of U.S. policy for the achievement of equal housing opportunity throughout the Nation. We encourage and support an affirmative advertising and marketing program in which there are no barriers to obtaining housing because of race, color, religion, sex, handicap, familial status, or national origin. <strong>Equal Housing Opportunity.</strong></p>
         </div>
