@@ -106,7 +106,7 @@ export default function Home() {
               { stat: '~33', title: 'Estimated Buildable Units', body: 'LAR4-1 zoning with est. FAR 4.5:1 — 50% above standard. Clean rectangular lot approx. 60 ft wide × 130 ft deep.' },
               { stat: '$0', title: 'Subterranean Parking Required', body: 'Per AB 2097, parking may be fully waived for qualifying affordable developments at this transit location — more buildable area, lower costs.' },
               { stat: 'Metro', title: 'MacArthur Park — Steps Away', body: 'Red and Purple Lines. Walking distance. Direct access to Downtown LA, Koreatown, Hollywood. This is what triggers TOC Tier 3.' },
-              { stat: 'RSO', title: 'Fully Disclosed — No Surprises', body: 'Three RSO tenants disclosed with confirmed move-in dates. Relocation est. ~$150K including legal — priced in. Owner unit delivered vacant.' },
+              { stat: 'RSO', title: 'Fully Disclosed — No Surprises', body: 'Three RSO tenants disclosed with confirmed move-in dates. Owner unit delivered vacant at COE.' },
               { stat: 'LOD', title: 'Proof Across the Street', body: 'City of LA issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit project at 451 S Bonnie Brae — directly across the street. Same zoning. Same TOC tier.' },
             ].map(({ stat, title, body }) => (
               <div className="card" key={stat + title}>
