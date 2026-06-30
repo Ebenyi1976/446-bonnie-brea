@@ -63,7 +63,7 @@ export default function Home() {
           <span className="secTag">Property Condition &amp; Tenancy</span>
           <div className="callout">
             <h3>Sold As-Is. No Repairs. Tenants in Place.</h3>
-            <p>Property will be sold in its current as-is condition. Seller will make no repairs or improvements. The owner-occupied unit (Unit 4) will be delivered vacant at close of escrow. Three RSO tenants will transfer with the property — the future owner inherits the existing tenancies. Full tenant disclosure including confirmed move-in dates and estimated relocation costs is provided in the Offering Memorandum.</p>
+            <p>Property will be sold in its current as-is condition. Seller will make no repairs or improvements. The owner-occupied unit (Unit 4) will be delivered vacant at close of escrow. Three RSO tenants will transfer with the property — the future owner inherits the existing tenancies.</p>
           </div>
         </div>
       </Reveal>
