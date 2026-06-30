@@ -249,7 +249,7 @@ export default function Home() {
       <footer className="footer">
         <div className="footerTop">
           <span>446 S Bonnie Brae Street · Los Angeles, CA 90057</span>
-          <span>© 2026 Edit Benyi · DRE #01918439 · Coldwell Banker</span>
+          <span>© 2026 Edit Benyi · DRE #01918439 · Coldwell Banker · Edit Benyi represents the Seller in this transaction.</span>
         </div>
         <p className="footerDisc">All development potential figures, unit yields, FAR, density bonuses, and parking reductions are estimates based on current LAR4-1 zoning and TOC Tier 3 guidelines, for illustrative purposes only, and do not constitute a guarantee of any kind. Actual development is subject to City of LA formal review and approval. Laws and guidelines subject to change. Buyer to independently verify with licensed architect, land use attorney, and City of LA. Dual License Disclosure: Edit Benyi DRE #01918439 / Coldwell Banker DRE #02211662. Mortgage: NMLS #1762484 / Loan Factory NMLS #320841. Mortgage services optional. Buyers free to use any lender. AfBA disclosure provided upon request.</p>
         <div className="footerEho">
