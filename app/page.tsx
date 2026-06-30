@@ -252,6 +252,15 @@ export default function Home() {
           <span>© 2026 Edit Benyi · DRE #01918439 · Coldwell Banker</span>
         </div>
         <p className="footerDisc">All development potential figures, unit yields, FAR, density bonuses, and parking reductions are estimates based on current LAR4-1 zoning and TOC Tier 3 guidelines, for illustrative purposes only, and do not constitute a guarantee of any kind. Actual development is subject to City of LA formal review and approval. Laws and guidelines subject to change. Buyer to independently verify with licensed architect, land use attorney, and City of LA. Dual License Disclosure: Edit Benyi DRE #01918439 / Coldwell Banker DRE #02211662. Mortgage: NMLS #1762484 / Loan Factory NMLS #320841. Mortgage services optional. Buyers free to use any lender. AfBA disclosure provided upon request.</p>
+        <div className="footerEho">
+          <div className="ehoLogo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Equal Housing Opportunity">
+              <path d="M12 2L2 9h3v11h5v-6h4v6h5V9h3L12 2z" fill="currentColor"/>
+              <rect x="9" y="13" width="6" height="6" fill="none" stroke="currentColor" strokeWidth="0.5"/>
+            </svg>
+          </div>
+          <p className="ehoText">We are pledged to the letter and spirit of U.S. policy for the achievement of equal housing opportunity throughout the Nation. We encourage and support an affirmative advertising and marketing program in which there are no barriers to obtaining housing because of race, color, religion, sex, handicap, familial status, or national origin. <strong>Equal Housing Opportunity.</strong></p>
+        </div>
       </footer>
     </>
   )
