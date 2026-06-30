@@ -29,7 +29,7 @@ export default function Home() {
           </div>
           <div className="baPhoto">
             <Image src="/proposed-render.jpg" alt="Illustrative rendering of a proposed multifamily development concept on the site" width={600} height={260} style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
-            <div className="aiBadge">AI-Generated Image</div>
+            <div className="aiBadge">AI-generated image for illustrative purposes</div>
             <div className={`baLabel baLabelGold`}>PROPOSED DEVELOPMENT CONCEPT — ILLUSTRATIVE ONLY*</div>
           </div>
         </div>
@@ -154,7 +154,7 @@ export default function Home() {
           <h2 className="secH">What could be built here.</h2>
           <div style={{ position: 'relative', display: 'inline-block', width: '100%' }}>
             <Image src="/massing-diagram.png" alt="Illustrative massing diagram showing the estimated buildable envelope on the site" width={1080} height={540} className="massingImg" style={{ width: '100%', height: 'auto' }} />
-            <div className="aiBadge">AI-Generated Image</div>
+            <div className="aiBadge">AI-generated image for illustrative purposes</div>
           </div>
           <div className="statRow">
             <div className="statBox"><div className="statNum">~33</div><div className="statLbl">Est. Total Units* — 25 market rate + 4 SB 8 affordable + 4 owner replacement</div></div>
