@@ -30,6 +30,7 @@ export default function Home() {
           <div className="baPhoto">
             <Image src="/proposed-render.jpg" alt="Illustrative rendering of a proposed multifamily development concept on the site" width={600} height={260} style={{ width: '100%', height: '260px', objectFit: 'cover' }} />
             <div className={`baLabel baLabelGold`}>PROPOSED DEVELOPMENT CONCEPT — ILLUSTRATIVE ONLY*</div>
+            <div className="aiDisclosure">AI-generated image for illustrative purposes</div>
           </div>
         </div>
       </Reveal>
@@ -152,6 +153,7 @@ export default function Home() {
           <span className="secTag">Massing Diagram</span>
           <h2 className="secH">What could be built here.</h2>
           <Image src="/massing-diagram.png" alt="Illustrative massing diagram showing the estimated buildable envelope on the site" width={1080} height={540} className="massingImg" style={{ width: '100%', height: 'auto' }} />
+          <div className="aiDisclosure" style={{ textAlign: 'center', marginTop: '8px' }}>AI-generated image for illustrative purposes</div>
           <div className="statRow">
             <div className="statBox"><div className="statNum">~33</div><div className="statLbl">Est. Total Units* — 25 market rate + 4 SB 8 affordable + 4 owner replacement</div></div>
             <div className="statBox"><div className="statNum">5</div><div className="statLbl">Stories* — Wood frame over podium, Type III-A over Type I-A</div></div>
