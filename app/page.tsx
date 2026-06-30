@@ -117,7 +117,7 @@ export default function Home() {
             ))}
           </div>
           <div className="callout" style={{ marginTop: '32px' }}>
-            <p>LAR4-1. TOC Tier 3. Est. ~33 buildable units. Steps from MacArthur Park Metro. Per AB 2097, minimum parking requirements may be fully eliminated for qualifying affordable developments at this location — meaning more buildable area, lower construction costs, better returns. Subject to City of LA review and your architect&apos;s confirmation. You are seeing this before it goes to market.</p>
+            <p>LAR4-1. TOC Tier 3. Est. ~33 buildable units. Steps from MacArthur Park Metro. Per AB 2097, minimum parking requirements may be fully eliminated for qualifying affordable developments at this location — meaning more buildable area, lower construction costs, better returns. Subject to City of LA review and your architect&apos;s confirmation.</p>
           </div>
         </div>
       </Reveal>
