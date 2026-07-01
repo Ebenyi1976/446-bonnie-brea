@@ -160,7 +160,7 @@ export default function Home() {
             <div className="aiBadge">AI-generated image for illustrative purposes</div>
           </div>
           <div className="statRow">
-            <div className="statBox"><div className="statNum">~33</div><div className="statLbl">Est. Total Units* — 25 market rate + 4 SB 8 affordable + 4 owner replacement</div></div>
+            <div className="statBox"><div className="statNum">~33</div><div className="statLbl">Est. Total Units* — 25 market rate + 4 SB 8 affordable + 4 RSO replacement</div></div>
             <div className="statBox"><div className="statNum">5</div><div className="statLbl">Stories* — Wood frame over podium, Type III-A over Type I-A</div></div>
             <div className="statBox"><div className="statNum">0</div><div className="statLbl">Subterranean Levels* — At-grade parking only per TOC Tier 3</div></div>
           </div>
