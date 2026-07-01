@@ -108,7 +108,7 @@ export default function Home() {
               { stat: 'Unit 4', title: 'Delivered Vacant at Close', body: 'Owner-occupied unit delivers vacant at close of escrow. Available immediately for renovation or occupancy. Market rent est. $1,800–$2,000/month upon light cosmetic renovation.*' },
               { stat: '329', title: 'Same Street — Final Phase', body: '329 S Bonnie Brae — a 30-unit multifamily project on this exact street is now in final construction phase. The submarket is not coming. It is already here.' },
               { stat: '452', title: 'Next Door — Permits Active', body: 'The adjacent property just reactivated building, grading, and shoring permits. A 30-unit 6-story development is in active plan check steps from this site. The block is already moving.' },
-              { stat: 'LOD', title: 'Proof Across the Street', body: 'City of LA issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit project at 451 S Bonnie Brae — directly across the street. Same zoning. Same TOC tier.' },
+              { stat: '451', title: 'Across the Street — LOD Issued', body: 'City of LA issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit project at 451 S Bonnie Brae — directly across the street. Same zoning. Same TOC tier.' },
             ].map(({ stat, title, body }) => (
               <div className="card" key={stat + title}>
                 <div className="cardStat">{stat}</div>
