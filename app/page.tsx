@@ -230,9 +230,9 @@ export default function Home() {
             </span>
           </div>
 
-          <div style={{ width: '96px', height: '1px', background: 'var(--gold)', margin: '24px auto', opacity: 0.4 }} />
+          <div style={{ width: '96px', height: '1px', background: 'var(--gold)', margin: '16px auto', opacity: 0.4 }} />
 
-          <p style={{ color: 'rgba(255,255,255,0.6)', fontWeight: 300, fontSize: '0.9rem', lineHeight: '1.7', maxWidth: '500px', margin: '0 auto 40px' }}>
+          <p style={{ color: 'rgba(255,255,255,0.6)', fontWeight: 300, fontSize: '0.9rem', lineHeight: '1.7', maxWidth: '500px', margin: '0 auto 24px' }}>
             Full financials and deal details are available to qualified developers and investors upon request. The developers who move first set the terms. The ones who wait respond to them.
           </p>
 
