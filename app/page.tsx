@@ -206,15 +206,42 @@ export default function Home() {
 
       {/* 10. SCARCITY CLOSE */}
       <Reveal className="block bgNavy">
-        <div className="wrapNarrow scarcity">
-          <div className="scarcityLbl">Now on the Market</div>
+        <div className="wrapNarrow scarcity" style={{ textAlign: 'center' }}>
+
+          <span style={{ fontFamily: 'var(--font-dm-mono)', fontSize: '0.72rem', letterSpacing: '0.22em', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase', display: 'block', marginBottom: '24px' }}>
+            Now on the Market
+          </span>
+
           <h2 className="scarcityH2">
-            This is a competitive process —<br />
-            <span className="accent">the time to move is now.</span>
+            This is a competitive process —{' '}
+            <em className="accent" style={{ fontStyle: 'italic' }}>the time to move is now.</em>
           </h2>
-          <p className="scarcityBody">446 S Bonnie Brae Street is now available. Full financials and deal details are available to qualified developers and investors upon request. The developers who move first set the terms. The ones who wait respond to them.</p>
+
+          <p style={{ color: 'rgba(255,255,255,0.6)', fontWeight: 300, fontSize: '1rem', lineHeight: '1.7', maxWidth: '560px', margin: '0 auto 16px' }}>
+            446 S Bonnie Brae Street is now publicly listed at:
+          </p>
+
+          <div style={{ marginBottom: '12px' }}>
+            <span style={{ fontFamily: 'var(--font-playfair)', fontWeight: 700, color: 'var(--gold)', display: 'block', fontSize: 'clamp(3rem, 8vw, 5.5rem)', lineHeight: '1' }}>
+              $1,400,000
+            </span>
+            <span style={{ fontFamily: 'var(--font-dm-mono)', fontSize: '0.72rem', letterSpacing: '0.18em', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', marginTop: '8px', display: 'block' }}>
+              Offered at $1,400,000 · Los Angeles CA 90057
+            </span>
+          </div>
+
+          <div style={{ width: '96px', height: '1px', background: 'var(--gold)', margin: '24px auto', opacity: 0.4 }} />
+
+          <p style={{ color: 'rgba(255,255,255,0.6)', fontWeight: 300, fontSize: '0.9rem', lineHeight: '1.7', maxWidth: '500px', margin: '0 auto 40px' }}>
+            Full financials and deal details are available to qualified developers and investors upon request. The developers who move first set the terms. The ones who wait respond to them.
+          </p>
+
           <a href="#contact" className="ctaGold">Contact for Details →</a>
-          <p className="ctaNote">No price shown publicly. Full financials available to qualified developers and investors upon request.</p>
+
+          <p style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.72rem', fontStyle: 'italic', marginTop: '24px', lineHeight: '1.6', maxWidth: '500px', margin: '24px auto 0' }}>
+            Offering Memorandum available upon request. All development figures are estimates based on current LAR4-1 zoning and TOC Tier 3 guidelines. Subject to City of LA review. Buyer to verify independently.
+          </p>
+
         </div>
       </Reveal>
 
