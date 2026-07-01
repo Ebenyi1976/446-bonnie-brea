@@ -222,7 +222,7 @@ export default function Home() {
         <div className="wrapNarrow">
           <span className="secTag">Contact</span>
           <h2 className="secH">Tell us about yourself.</h2>
-          <p className="introP">We share full financials and deal details with qualified developers and investors. Fill out the short form below and we will send the Offering Memorandum directly to your inbox.</p>
+          <p className="introP">For further information please contact us.</p>
           <ContactForm />
           <div className="agentCard">
             <div className="agentAvatar">
