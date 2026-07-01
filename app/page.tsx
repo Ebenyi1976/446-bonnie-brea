@@ -97,13 +97,16 @@ export default function Home() {
       <Reveal className="block bgWhite">
         <div className="wrap">
           <span className="secTag">The Opportunity</span>
-          <h2 className="secH">Six reasons this deal works.</h2>
+          <h2 className="secH">Nine reasons this deal works.</h2>
           <div className="grid6">
             {[
               { stat: 'TOC T3', title: 'Highest Density Designation', body: 'Est. 70% density bonus over base zoning — one of the highest incentive tiers in the City of LA. Triggered by MacArthur Park Metro proximity.' },
               { stat: '~33', title: 'Estimated Buildable Units', body: 'LAR4-1 zoning with est. FAR 4.5:1 — 50% above standard. Clean rectangular lot approx. 60 ft wide × 130 ft deep.' },
               { stat: '$0', title: 'Subterranean Parking Required', body: 'Per AB 2097, parking may be fully waived for qualifying affordable developments at this transit location — more buildable area, lower costs.' },
               { stat: 'Metro', title: 'MacArthur Park — Steps Away', body: 'Red and Purple Lines. Walking distance. Direct access to Downtown LA, Koreatown, Hollywood. This is what triggers TOC Tier 3.' },
+              { stat: '7,870', title: 'Square Foot Lot', body: 'Clean rectangular lot approximately 60 ft wide × 130 ft deep. Larger than the comparable 451 S Bonnie Brae sale at 7,458 SF. More buildable area — efficient footprint for ground-up construction.*' },
+              { stat: 'Unit 4', title: 'Delivered Vacant at Close', body: 'Owner-occupied unit delivers vacant at close of escrow. Available immediately for renovation or occupancy. Market rent est. $1,800–$2,000/month upon light cosmetic renovation.*' },
+              { stat: '329', title: 'Same Street — Final Phase', body: '329 S Bonnie Brae — a 30-unit multifamily project on this exact street is now in final construction phase. The submarket is not coming. It is already here.' },
               { stat: '452', title: 'Next Door — Permits Active', body: 'The adjacent property just reactivated building, grading, and shoring permits. A 30-unit 6-story development is in active plan check steps from this site. The block is already moving.' },
               { stat: 'LOD', title: 'Proof Across the Street', body: 'City of LA issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit project at 451 S Bonnie Brae — directly across the street. Same zoning. Same TOC tier.' },
             ].map(({ stat, title, body }) => (
