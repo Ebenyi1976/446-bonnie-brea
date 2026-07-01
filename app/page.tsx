@@ -106,9 +106,9 @@ export default function Home() {
               { stat: 'Metro', title: 'MacArthur Park — Steps Away', body: 'Red and Purple Lines. Walking distance. Direct access to Downtown LA, Koreatown, Hollywood. This is what triggers TOC Tier 3.' },
               { stat: '7,870', title: 'Square Foot Lot', body: 'Clean rectangular lot approximately 60 ft wide × 130 ft deep. Larger than the comparable 451 S Bonnie Brae sale at 7,458 SF. More buildable area — efficient footprint for ground-up construction.*' },
               { stat: 'Unit 4', title: 'Delivered Vacant at Close', body: 'Owner-occupied unit delivers vacant at close of escrow. Only 3 RSO units require relocation — not 4. Less cost. Less time. Less complexity.*' },
-              { stat: '329', title: 'Same Street — Final Phase', body: '329 S Bonnie Brae — a 30-unit multifamily project on this exact street is now in final construction phase. The submarket is not coming. It is already here.' },
-              { stat: '452', title: 'Next Door — Permits Active', body: 'The adjacent property just reactivated building, grading, and shoring permits. A 30-unit 6-story development is in active plan check steps from this site. The block is already moving.' },
-              { stat: '451', title: 'Across the Street — LOD Issued', body: 'City of LA issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit project at 451 S Bonnie Brae — directly across the street. Same zoning. Same TOC tier.' },
+              { stat: '329', title: 'Same Street — Final Phase', body: '329 S Bonnie Brae St — a 30-unit multifamily project on this exact street is now in final construction phase. The submarket is not coming. It is already here.' },
+              { stat: '452', title: 'Next Door — Permits Active', body: '452 S Bonnie Brae St — the adjacent property just reactivated building, grading, and shoring permits. A 30-unit 6-story development is in active plan check steps from this site. The block is already moving.' },
+              { stat: '451', title: 'Across the Street — LOD Issued', body: '451 S Bonnie Brae St — City of LA issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit project directly across the street. Same zoning. Same TOC tier.' },
             ].map(({ stat, title, body }) => (
               <div className="card" key={stat + title}>
                 <div className="cardStat">{stat}</div>
