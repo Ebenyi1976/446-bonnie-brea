@@ -22,8 +22,8 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: '446 S Bonnie Brae Street — Development Opportunity · Los Angeles',
-  description: 'Off-market multifamily development opportunity in Westlake, Los Angeles. TOC Tier 3. LAR4-1. Est. ~33 buildable units. MacArthur Park Metro adjacent.',
+  title: '446 S Bonnie Brae Street — Now on the Market · Los Angeles',
+  description: 'Multifamily development opportunity now on the market in Westlake, Los Angeles. TOC Tier 3. LAR4-1. Est. ~33 buildable units. MacArthur Park Metro adjacent. Contact Edit Benyi DRE #01918439.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

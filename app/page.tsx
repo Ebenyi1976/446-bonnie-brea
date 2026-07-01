@@ -12,14 +12,12 @@ export default function Home() {
 
       {/* 2. HERO */}
       <Reveal className="hero">
-        <div className="heroLabel">OFF MARKET · WESTLAKE · LOS ANGELES CA 90057</div>
+        <div className="heroLabel">NOW ON THE MARKET · WESTLAKE · LOS ANGELES CA 90057</div>
         <h1 className="heroH1">
           The zoning framework is already there.<br />
           <span className="accent">Someone just needs to build it.</span>
         </h1>
         <div className="heroSubline">LAR4-1 · TOC TIER 3 · EST. ~33 BUILDABLE UNITS* · MACARTHUR PARK METRO</div>
-
-        <Countdown />
 
         <div className="baPhotos">
           <div className="baPhoto cropBottom">
@@ -209,13 +207,12 @@ export default function Home() {
       {/* 10. SCARCITY CLOSE */}
       <Reveal className="block bgNavy">
         <div className="wrapNarrow scarcity">
-          <div className="scarcityLbl">Exclusive Access Window</div>
+          <div className="scarcityLbl">Now on the Market</div>
           <h2 className="scarcityH2">
-            Once this goes to market —<br />
-            <span className="accent">this conversation changes.</span>
+            This is a competitive process —<br />
+            <span className="accent">the time to move is now.</span>
           </h2>
-          <p className="scarcityBody">Right now you are seeing this before the broader market does. Once the exclusivity window closes, this becomes a competitive process. The developers who move first set the terms. The ones who wait respond to them.</p>
-          <Countdown />
+          <p className="scarcityBody">446 S Bonnie Brae Street is now available. Full financials and deal details are available to qualified developers and investors upon request. The developers who move first set the terms. The ones who wait respond to them.</p>
           <a href="#contact" className="ctaGold">Contact for Details →</a>
           <p className="ctaNote">No price shown publicly. Full financials available to qualified developers and investors upon request.</p>
         </div>
