@@ -234,8 +234,10 @@ export default function Home() {
               <div className="agentLic">
                 Real Estate Agent | Coldwell Banker<br />
                 Individual DRE #01918439 | Brokerage DRE #02211662<br />
+                <br />
                 Loan Officer | Loan Factory, Inc.<br />
-                NMLS #1762484 | CO-NMLS #320841 | Equal Housing Lender
+                NMLS #1762484 | CO-NMLS #320841<br />
+                Equal Housing Lender
               </div>
             </div>
             <div className="agentRight">
