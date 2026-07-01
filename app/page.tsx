@@ -232,9 +232,10 @@ export default function Home() {
               <div className="agentName">Edit Benyi</div>
               <div className="agentRole">Real Estate and Mortgage Broker</div>
               <div className="agentLic">
-                Edit Benyi — DRE #01918439 — NMLS #1762484<br />
-                Coldwell Banker — DRE #02211662<br />
-                Loan Factory — NMLS #320841
+                Real Estate Agent | Coldwell Banker<br />
+                Individual DRE #01918439 | Brokerage DRE #02211662<br />
+                Loan Officer | Loan Factory, Inc.<br />
+                NMLS #1762484 | CO-NMLS #320841 | Equal Housing Lender
               </div>
             </div>
             <div className="agentRight">
