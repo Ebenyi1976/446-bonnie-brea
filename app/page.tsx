@@ -106,7 +106,8 @@ export default function Home() {
               { stat: '7,870', title: 'Square Foot Lot', body: 'Clean rectangular lot approximately 60 ft wide × 130 ft deep. Larger than the comparable 451 S Bonnie Brae sale at 7,458 SF. More buildable area — efficient footprint for ground-up construction.*' },
               { stat: 'Owner Unit', title: 'Delivered Vacant at Close', body: 'Owner-occupied unit delivers vacant at close of escrow. Only 3 RSO units require relocation.' },
               { stat: '4', title: 'Active Projects on This Block', body: 'Four separate development projects on S Bonnie Brae Street — next door, across the street, same street, same corridor. The entitlement path is proven. The submarket is active.*' },
-              { stat: '2026', title: 'Olympics Coming to LA', body: 'The 2028 LA Olympics and 2026 FIFA World Cup are driving sustained demand for workforce and market-rate housing in transit-adjacent submarkets like Westlake.' },
+              { stat: '1921', title: 'End of Useful Life', body: 'Building constructed in 1921. No renovation value. No retrofit obligation. Demolish and build — exactly what a developer wants to see.*' },
+              { stat: '4,835', title: 'SF of Improvements — Tear Down', body: 'Existing building is 4,835 SF on a 7,870 SF lot. Low improvement-to-land ratio confirms this is a land play — not an income property. The building is the obstacle. The land is the asset.*' },
             ].map(({ stat, title, body }, i) => (
               <div className="card" key={i}>
                 <div className="cardStat">{stat}</div>
