@@ -92,45 +92,26 @@ export default function Home() {
         </div>
       </Reveal>
 
-      {/* 6. DEAL AT A GLANCE */}
+      {/* 6. SIX REASONS */}
       <Reveal className="block bgWhite">
         <div className="wrap">
-          <span className="secTag">The Deal at a Glance</span>
-          <h2 className="secH">Everything a developer needs to know.</h2>
-          <div className="factSheet">
-            <div className="factSheetCol">
-              <div className="factSheetHeader">The Site</div>
-              {[
-                '7,870 SF lot — approx. 60 ft wide × 130 ft deep',
-                '4 units built 1921 — end of useful life',
-                'Owner unit (Unit 4) delivered vacant at COE',
-                '3 RSO tenants — fully disclosed, no surprises',
-                'No mortgage — owned free and clear',
-                'Sold strictly AS-IS — no repairs',
-              ].map((item) => (
-                <div className="factSheetRow" key={item}>
-                  <span className="factSheetDash">—</span>
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-            <div className="factSheetDivider" />
-            <div className="factSheetCol">
-              <div className="factSheetHeader">The Opportunity</div>
-              {[
-                'LAR4-1 — highest density residential zoning in LA',
-                'TOC Tier 3 — est. 70% density bonus over base*',
-                '~33 estimated buildable units on this lot*',
-                '$0 subterranean parking required per AB 2097*',
-                'MacArthur Park Metro — Red and Purple Lines',
-                'Clean rectangular lot — efficient building footprint',
-              ].map((item) => (
-                <div className="factSheetRow" key={item}>
-                  <span className="factSheetDash">—</span>
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
+          <span className="secTag">The Opportunity</span>
+          <h2 className="secH">Six reasons this site works.</h2>
+          <div className="grid6">
+            {[
+              { stat: 'TOC T3', title: 'Highest Density Designation', body: 'Est. 70% density bonus over base zoning — one of the highest incentive tiers in the City of LA. Triggered by MacArthur Park Metro proximity.*' },
+              { stat: '~33', title: 'Estimated Buildable Units', body: 'LAR4-1 zoning with est. FAR 4.5:1 — 50% above standard. Clean rectangular lot approx. 60 ft wide × 130 ft deep.*' },
+              { stat: '$0', title: 'Subterranean Parking Per AB 2097', body: 'Per AB 2097, parking may be fully eliminated for qualifying affordable developments at this Metro-adjacent location — more buildable area, lower costs.*' },
+              { stat: 'Metro', title: 'MacArthur Park — Steps Away', body: 'Red and Purple Lines. Walking distance to Downtown LA, Koreatown, Hollywood. This is what triggers TOC Tier 3.' },
+              { stat: '7,870', title: 'Square Foot Lot', body: 'Clean rectangular lot approximately 60 ft wide × 130 ft deep. Larger than the comparable 451 S Bonnie Brae sale at 7,458 SF. Efficient footprint for ground-up construction.*' },
+              { stat: '1921', title: 'End of Useful Life — Demolish and Build', body: 'Building constructed in 1921. No renovation value. No retrofit obligation. This is a land play — the building is the obstacle, the land is the asset.*' },
+            ].map(({ stat, title, body }, i) => (
+              <div className="card" key={i}>
+                <div className="cardStat">{stat}</div>
+                <div className="cardTitle">{title}</div>
+                <div className="cardBody">{body}</div>
+              </div>
+            ))}
           </div>
           <p className="disclaimer" style={{ marginTop: '24px' }}>*All development figures are estimates based on current LAR4-1 zoning and TOC Tier 3 guidelines. Subject to City of LA review and independent verification. Not a guarantee of development potential.</p>
         </div>
