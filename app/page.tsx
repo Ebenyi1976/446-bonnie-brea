@@ -96,18 +96,17 @@ export default function Home() {
       <Reveal className="block bgWhite">
         <div className="wrap">
           <span className="secTag">The Opportunity</span>
-          <h2 className="secH">Nine reasons this deal works.</h2>
+          <h2 className="secH">Eight reasons this deal works.</h2>
           <div className="grid6">
             {[
               { stat: 'TOC T3', title: 'Highest Density Designation', body: 'Est. 70% density bonus over base zoning — one of the highest incentive tiers in the City of LA. Triggered by MacArthur Park Metro proximity.' },
               { stat: '~33', title: 'Estimated Buildable Units', body: 'LAR4-1 zoning with est. FAR 4.5:1 — 50% above standard. Clean rectangular lot approx. 60 ft wide × 130 ft deep.' },
-              { stat: '$0', title: 'Subterranean Parking Required', body: 'Per AB 2097, parking may be fully waived for qualifying affordable developments at this transit location — more buildable area, lower costs.' },
+              { stat: '$0', title: 'Subterranean Parking May Be Eliminated', body: 'Per AB 2097, parking may be fully waived for qualifying affordable developments at this transit location — more buildable area, lower costs.*' },
               { stat: 'Metro', title: 'MacArthur Park — Steps Away', body: 'Red and Purple Lines. Walking distance. Direct access to Downtown LA, Koreatown, Hollywood. This is what triggers TOC Tier 3.' },
               { stat: '7,870', title: 'Square Foot Lot', body: 'Clean rectangular lot approximately 60 ft wide × 130 ft deep. Larger than the comparable 451 S Bonnie Brae sale at 7,458 SF. More buildable area — efficient footprint for ground-up construction.*' },
               { stat: 'Owner Unit', title: 'Delivered Vacant at Close', body: 'Owner-occupied unit delivers vacant at close of escrow. Only 3 RSO units require relocation.' },
-              { stat: <>329 <span style={{fontSize:'0.65em', fontWeight:400}}>S Bonnie Brae</span></>, title: 'Same Street — Final Phase', body: 'A 30-unit multifamily project on this exact street is now in final construction phase. The submarket is not coming. It is already here.' },
-              { stat: <>452 <span style={{fontSize:'0.65em', fontWeight:400}}>S Bonnie Brae</span></>, title: 'Next Door — Permits Active', body: 'The adjacent property just reactivated building, grading, and shoring permits. A 30-unit 6-story development is in active plan check steps from this site. The block is already moving.' },
-              { stat: <>451 <span style={{fontSize:'0.65em', fontWeight:400}}>S Bonnie Brae</span></>, title: 'Across the Street — LOD Issued', body: 'City of LA issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit project directly across the street. Same zoning. Same TOC tier.' },
+              { stat: '4', title: 'Active Projects on This Block', body: 'Four separate development projects on S Bonnie Brae Street — next door, across the street, same street, same corridor. The entitlement path is proven. The submarket is active.*' },
+              { stat: '2026', title: 'Olympics Coming to LA', body: 'The 2028 LA Olympics and 2026 FIFA World Cup are driving sustained demand for workforce and market-rate housing in transit-adjacent submarkets like Westlake.' },
             ].map(({ stat, title, body }, i) => (
               <div className="card" key={i}>
                 <div className="cardStat">{stat}</div>
@@ -126,11 +125,11 @@ export default function Home() {
       <Reveal className="block bgCream">
         <div className="wrapNarrow">
           <span className="secTag">Already Happening On This Block</span>
-          <h2 className="secH">The submarket is moving. This block is the proof.</h2>
+          <h2 className="secH">Four projects. One block.</h2>
           <div className="dotList">
             {[
-              { title: '452 S Bonnie Brae — Next Door', badge: 'Permits Active', badgeCls: 'badgeGreen', body: 'Permits just reactivated. Ready for development. Adjacent lot on the same street.' },
-              { title: '451 S Bonnie Brae — Across the Street', badge: 'City LOD Issued', badgeCls: 'badgeBlue', body: 'City of Los Angeles issued Letter of Determination for a 26-unit development. Same LAR4-1 zoning. Same TOC Tier 3. Proof of concept on this exact block.' },
+              { title: '452 S Bonnie Brae — Next Door', badge: 'Permits Active', badgeCls: 'badgeGreen', body: 'Permits just reactivated. 30-unit 6-story development in active plan check. Adjacent lot on the same street.' },
+              { title: '451 S Bonnie Brae — Across the Street', badge: 'City LOD Issued', badgeCls: 'badgeBlue', body: 'City of Los Angeles issued Letter of Determination DIR-2016-4972-DB supporting a 26-unit development. Same LAR4-1 zoning. Same TOC Tier 3. Proof of concept on this exact block.' },
               { title: '329 S Bonnie Brae — Same Street', badge: 'Final Phase', badgeCls: 'badgeAmber', body: '30-unit project now in final construction phase. Actively under development right now on this street.' },
               { title: '830 S Bonnie Brae — Same Corridor', badge: 'Same Corridor', badgeCls: 'badgeGray', body: '20-unit complex a few blocks away — confirms sustained investor and developer demand in this submarket.' },
             ].map(({ title, badge, badgeCls, body }) => (
