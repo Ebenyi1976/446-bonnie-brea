@@ -92,33 +92,47 @@ export default function Home() {
         </div>
       </Reveal>
 
-      {/* 6. SIX REASONS */}
+      {/* 6. DEAL AT A GLANCE */}
       <Reveal className="block bgWhite">
         <div className="wrap">
-          <span className="secTag">The Opportunity</span>
-          <h2 className="secH">Nine reasons this deal works.</h2>
-          <div className="grid6">
-            {[
-              { stat: 'TOC T3', title: 'Highest Density Designation', body: 'Est. 70% density bonus over base zoning — one of the highest incentive tiers in the City of LA. Triggered by MacArthur Park Metro proximity.' },
-              { stat: '~33', title: 'Estimated Buildable Units', body: 'LAR4-1 zoning with est. FAR 4.5:1 — 50% above standard. Clean rectangular lot approx. 60 ft wide × 130 ft deep.' },
-              { stat: '$0', title: 'Subterranean Parking May Be Eliminated', body: 'Per AB 2097, parking may be fully waived for qualifying affordable developments at this transit location — more buildable area, lower costs.*' },
-              { stat: 'Metro', title: 'MacArthur Park — Steps Away', body: 'Red and Purple Lines. Walking distance. Direct access to Downtown LA, Koreatown, Hollywood. This is what triggers TOC Tier 3.' },
-              { stat: '7,870', title: 'Square Foot Lot', body: 'Clean rectangular lot approximately 60 ft wide × 130 ft deep. Larger than the comparable 451 S Bonnie Brae sale at 7,458 SF. More buildable area — efficient footprint for ground-up construction.*' },
-              { stat: 'Owner Unit', title: 'Delivered Vacant at Close', body: 'Owner-occupied unit delivers vacant at close of escrow. Only 3 RSO units require relocation.' },
-              { stat: '4', title: 'Active Projects on This Block', body: 'Four separate development projects on S Bonnie Brae Street — next door, across the street, same street, same corridor. The entitlement path is proven. The submarket is active.*' },
-              { stat: '1921', title: 'End of Useful Life', body: 'Building constructed in 1921. No renovation value. No retrofit obligation. Demolish and build — exactly what a developer wants to see.*' },
-              { stat: '4,835', title: 'SF of Improvements — Tear Down', body: 'Existing building is 4,835 SF on a 7,870 SF lot. Low improvement-to-land ratio confirms this is a land play — not an income property. The building is the obstacle. The land is the asset.*' },
-            ].map(({ stat, title, body }, i) => (
-              <div className="card" key={i}>
-                <div className="cardStat">{stat}</div>
-                <div className="cardTitle">{title}</div>
-                <div className="cardBody">{body}</div>
-              </div>
-            ))}
+          <span className="secTag">The Deal at a Glance</span>
+          <h2 className="secH">Everything a developer needs to know.</h2>
+          <div className="factSheet">
+            <div className="factSheetCol">
+              <div className="factSheetHeader">The Site</div>
+              {[
+                '7,870 SF lot — approx. 60 ft wide × 130 ft deep',
+                '4 units built 1921 — end of useful life',
+                'Owner unit (Unit 4) delivered vacant at COE',
+                '3 RSO tenants — fully disclosed, no surprises',
+                'No mortgage — owned free and clear',
+                'Sold strictly AS-IS — no repairs',
+              ].map((item) => (
+                <div className="factSheetRow" key={item}>
+                  <span className="factSheetDash">—</span>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+            <div className="factSheetDivider" />
+            <div className="factSheetCol">
+              <div className="factSheetHeader">The Opportunity</div>
+              {[
+                'LAR4-1 — highest density residential zoning in LA',
+                'TOC Tier 3 — est. 70% density bonus over base*',
+                '~33 estimated buildable units on this lot*',
+                '$0 subterranean parking required per AB 2097*',
+                'MacArthur Park Metro — Red and Purple Lines',
+                'Clean rectangular lot — efficient building footprint',
+              ].map((item) => (
+                <div className="factSheetRow" key={item}>
+                  <span className="factSheetDash">—</span>
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="callout" style={{ marginTop: '32px' }}>
-            <p>LAR4-1. TOC Tier 3. Est. ~33 buildable units. Steps from MacArthur Park Metro. Per AB 2097, minimum parking requirements may be fully eliminated for qualifying affordable developments at this location — meaning more buildable area, lower construction costs, better returns. Subject to City of LA review and your architect&apos;s confirmation.</p>
-          </div>
+          <p className="disclaimer" style={{ marginTop: '24px' }}>*All development figures are estimates based on current LAR4-1 zoning and TOC Tier 3 guidelines. Subject to City of LA review and independent verification. Not a guarantee of development potential.</p>
         </div>
       </Reveal>
 
