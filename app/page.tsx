@@ -59,7 +59,9 @@ export default function Home() {
           <span className="secTag">Property Condition &amp; Tenancy</span>
           <div className="callout">
             <h3>Sold As-Is. No Repairs. Tenants in Place.</h3>
-            <p>Property will be sold in its current as-is condition. Seller will make no repairs or improvements. The owner-occupied unit (Unit 4) will be delivered vacant at close of escrow. Three RSO tenants will transfer with the property — the future owner inherits the existing tenancies.</p>
+            <p>Property will be sold in its current as-is condition. Seller will make no repairs or improvements. The owner-occupied unit (Unit 4) will be delivered vacant at close of escrow. Three RSO tenants will transfer with the property — the future owner inherits the existing tenancies.
+
+Property is subject to the City of Los Angeles Rent Stabilization Ordinance (RSO) and California's Tenant Protection Act (AB 1482). Three residential tenancies will transfer to the Buyer at close of escrow. Buyer assumes full responsibility for compliance with all applicable RSO requirements including tenant relocation assistance obligations, required notice periods, and just-cause eviction procedures as required by the City of Los Angeles. Buyer is strongly advised to retain qualified RSO and land use legal counsel prior to making an offer to determine costs, timeline, and all related obligations specific to this property.</p>
             <p style={{ marginTop: '16px' }}>Property is subject to the City of Los Angeles Rent Stabilization Ordinance (RSO). Three residential tenancies will transfer to the Buyer at close of escrow. Buyer assumes full responsibility for compliance with all applicable RSO requirements including tenant relocation assistance obligations, required notice periods, and just-cause eviction procedures as required by the City of Los Angeles. Buyer is strongly advised to retain qualified RSO and land use legal counsel prior to making an offer to determine costs, timeline, and all related obligations specific to this property.</p>
           </div>
         </div>
