@@ -96,7 +96,7 @@ export default function Home() {
       <Reveal className="block bgWhite">
         <div className="wrap">
           <span className="secTag">The Opportunity</span>
-          <h2 className="secH">Eight reasons this deal works.</h2>
+          <h2 className="secH">Nine reasons this deal works.</h2>
           <div className="grid6">
             {[
               { stat: 'TOC T3', title: 'Highest Density Designation', body: 'Est. 70% density bonus over base zoning — one of the highest incentive tiers in the City of LA. Triggered by MacArthur Park Metro proximity.' },
